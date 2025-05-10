@@ -1,0 +1,27 @@
+{
+  "type": "postgresql",
+  "host": "postgres",
+  "port": "5432",
+  "databaseName": "hammerhead_production",
+  "databaseUsername": "retool_internal_user",
+  "databasePassword": "",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": false,
+  "editPrivilege": false,
+  "options": {
+    "sshHost": "",
+    "version": "SqlQueryUnified",
+    "sshPassword": "",
+    "sshUsername": "",
+    "authentication": "user_password",
+    "connectionString": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "sshTunnelEnabled": false,
+    "sshPrivateKeyName": ""
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "7c299279-ec49-480f-9e15-de0b8a654b73",
+  "toolscriptVersion": "1.0.0"
+}

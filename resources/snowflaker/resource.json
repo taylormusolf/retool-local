@@ -1,0 +1,30 @@
+{
+  "type": "snowflake",
+  "host": "FN98222-LO46504",
+  "port": "",
+  "databaseName": "TaylorM",
+  "databaseUsername": "anthonyg",
+  "databasePassword": "",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": false,
+  "editPrivilege": false,
+  "options": {
+    "role": "",
+    "version": "SqlQueryUnified",
+    "warehouse": "",
+    "oauth2_scope": "refresh_token",
+    "authenticator": "snowflake",
+    "databaseSchema": "",
+    "oauth2_auth_url": "",
+    "oauth2_client_id": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "oauth2_callback_url": "OAUTH2_CALLBACK_URL",
+    "oauth2_client_secret": "",
+    "oauth2_access_token_url": ""
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "96fe4494-ec1c-43a8-960b-d8798c55d175",
+  "toolscriptVersion": "1.0.0"
+}

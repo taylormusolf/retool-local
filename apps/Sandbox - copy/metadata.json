@@ -1,0 +1,20 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "cd39ec4c-2d3c-11f0-ad49-5faa8878b370",
+  "appTemplate": {
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionName": "IDidItForTheCc",
+            "collectionRevisionUuid": "4642869b-870e-4510-a402-f45b7e9e48cf",
+            "collectionUuid": "1455dc9a-f879-411f-87ac-6bf83c3fcc2f"
+          }
+        }
+      ]
+    },
+    "version": "3.148.3",
+    "experimentalDataTabEnabled": true
+  }
+}

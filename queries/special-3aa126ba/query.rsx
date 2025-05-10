@@ -1,0 +1,34 @@
+<PlaygroundQuery
+  id="special"
+  adhocResourceType={null}
+  data={null}
+  resourceType="postgresql"
+>
+  <SqlQuery
+    _additionalScope={[]}
+    actionType=""
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    bulkUpdatePrimaryKey=""
+    dataArray={[]}
+    doNotThrowOnNoOp={false}
+    editorMode="sql"
+    enableBulkUpdates={false}
+    events={[]}
+    filterBy=""
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    query={include("./lib/special.sql", "string")}
+    queryTimeout="100000"
+    recordId=""
+    records=""
+    retoolVersion="3.75.9"
+    runWhenModelUpdates={false}
+    showUpdateSetValueDynamicallyToggle={false}
+    tableName=""
+    updateSetValueDynamically={true}
+    warningCodes={[]}
+    watchedParams={[]}
+  />
+</PlaygroundQuery>

@@ -42,4 +42,11 @@
     value="{startingDate: '2023-02-01', endingDate: '2023-02-28'
 }"
   />
+  <JavascriptQuery
+    id="query4"
+    notificationDuration={4.5}
+    query={include("./lib/query4.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
 </GlobalFunctions>

@@ -45,6 +45,7 @@
   <JavascriptQuery
     id="query4"
     notificationDuration={4.5}
+    query={include("./lib/query4.js", "string")}
     resourceName="JavascriptQuery"
     showSuccessToaster={false}
   />

@@ -14,6 +14,7 @@
       dateFormat="MMM d, yyyy"
       endPlaceholder="End date"
       iconBefore="bold/interface-calendar-remove"
+      label="Label!"
       labelPosition="top"
       startPlaceholder="Start date"
       textBetween="-"

@@ -15,7 +15,7 @@
     padding="8px 12px"
     type="main"
   >
-    <Button id="button1" text="Button" />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Module
       id="moduleTest1"
       name="module-test"

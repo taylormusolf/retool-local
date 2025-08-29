@@ -1,14 +1,14 @@
 {
-  "button1": {
-    "row": 1,
-    "col": 1,
-    "height": 1,
-    "width": 2
-  },
   "moduleTest1": {
     "row": 2.8,
     "col": 1,
     "height": 2.4,
     "width": 11
+  },
+  "textInput1": {
+    "row": 0.6,
+    "col": 3,
+    "height": 0.2,
+    "width": 4
   }
 }

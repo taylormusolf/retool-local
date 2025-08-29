@@ -1,10 +1,4 @@
 {
-  "button1": {
-    "row": 1,
-    "col": 1,
-    "height": 1,
-    "width": 2
-  },
   "moduleTest1": {
     "row": 2.8,
     "col": 1,

@@ -15,7 +15,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Button id="button1" text="Button" />
     <Module
       id="moduleTest1"
       name="module-test"

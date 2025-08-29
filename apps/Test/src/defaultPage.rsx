@@ -3,6 +3,7 @@
   _customShortcuts={[]}
   _hashParams={[]}
   _searchParams={[]}
+  browserTitle=""
   title="Default Page"
   urlSlug=""
 >
@@ -14,6 +15,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Button id="button1" text="Button" />
     <Module
       id="moduleTest1"
       name="module-test"

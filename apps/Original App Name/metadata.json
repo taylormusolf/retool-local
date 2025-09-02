@@ -1,0 +1,31 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "c4f16622-3b4d-11f0-8956-1368244397b7",
+  "appTemplate": {
+    "urlFragmentDefinitions": [
+      {
+        "ordered": [
+          {
+            "name": "foo"
+          },
+          {
+            "value": ""
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "bar"
+          },
+          {
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "version": "3.196.2",
+    "experimentalDataTabEnabled": true
+  }
+}

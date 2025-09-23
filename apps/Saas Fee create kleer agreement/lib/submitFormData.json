@@ -1,0 +1,3 @@
+{
+  "billing_details": {{ keyValue1.data.billing_details[0] }}
+}

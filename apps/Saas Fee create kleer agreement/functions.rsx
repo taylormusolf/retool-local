@@ -1,0 +1,75 @@
+<GlobalFunctions>
+  <SqlQueryUnified
+    id="getFormStructure"
+    isHidden={false}
+    isMultiplayerEdited={false}
+    query={include("./lib/getFormStructure.sql", "string")}
+    resourceName="ac947e54-f947-416a-bfef-2a436b9fbb80"
+    resourceTypeOverride=""
+    warningCodes={[]}
+  />
+  <WorkflowRun
+    id="submitFormData"
+    isMultiplayerEdited={false}
+    resourceName="WorkflowRun"
+    resourceTypeOverride=""
+    workflowId="b1b37388-08e7-4735-ab59-72a175c450f2"
+    workflowParams={include("./lib/submitFormData.json", "string")}
+  >
+    <Event
+      event="success"
+      method="hide"
+      params={{}}
+      pluginId="modalFrame1"
+      type="widget"
+      waitMs="0"
+      waitType="debounce"
+    />
+    <Event
+      event="success"
+      method="showNotification"
+      params={{
+        map: { options: { notificationType: "info", title: "Success" } },
+      }}
+      pluginId=""
+      type="util"
+      waitMs="0"
+      waitType="debounce"
+    />
+    <Event
+      event="success"
+      method="trigger"
+      params={{}}
+      pluginId="afterSubmit"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+    <Event
+      event="failure"
+      method="showNotification"
+      params={{
+        map: { options: { notificationType: "warning", title: "Fail" } },
+      }}
+      pluginId=""
+      type="util"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </WorkflowRun>
+  <GlobalWidgetQuery
+    id="afterSubmit"
+    defaultValue=""
+    isHidden={false}
+    resourceName="GlobalWidgetQuery"
+    value=""
+  />
+  <JavascriptQuery
+    id="modalContainerAfterSubmitTrigger"
+    isHidden={false}
+    notificationDuration={4.5}
+    query={include("./lib/modalContainerAfterSubmitTrigger.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+</GlobalFunctions>

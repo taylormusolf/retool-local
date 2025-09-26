@@ -1,9 +1,8 @@
 <GlobalFunctions>
-  <SqlQueryUnified
+  <RESTQuery
     id="query1"
-    query={include("./lib/query1.sql", "string")}
-    resourceDisplayName="retool_db"
-    resourceName="68b56907-a5ff-44a3-90bb-691ce856a942"
-    warningCodes={[]}
+    query="get"
+    resourceDisplayName="Http Bin - copy"
+    resourceName="689a00da-b89a-4858-8adb-205f07699980"
   />
 </GlobalFunctions>

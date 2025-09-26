@@ -15,7 +15,7 @@
       isGlobalWidgetContainer={true}
     >
       <Button id="button1" text="Module button" />
-      <JSONExplorer id="jsonExplorer1" value="{{ query1.data }}" />
+      <JSONExplorer id="jsonExplorer1" value="{{ query2.data }}" />
     </ModuleContainerWidget>
   </Frame>
 </App>

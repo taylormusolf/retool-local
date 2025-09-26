@@ -1,10 +1,10 @@
 <Screen
-  id="defaultPage"
+  id="page1"
   _customShortcuts={[]}
   _hashParams={[]}
   _searchParams={[]}
   browserTitle=""
-  title="Default Page"
+  title="Page 1"
   urlSlug=""
 >
   <Frame
@@ -14,11 +14,5 @@
     isHiddenOnMobile={false}
     padding="8px 12px"
     type="main"
-  >
-    <Module
-      id="moduleTest1"
-      name="module-test"
-      pageUuid="eb795076-1b30-11f0-929c-0bb12910c2f4"
-    />
-  </Frame>
+  />
 </Screen>

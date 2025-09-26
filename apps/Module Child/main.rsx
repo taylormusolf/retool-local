@@ -1,4 +1,5 @@
 <App>
+  <Include src="./functions.rsx" />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -14,6 +15,7 @@
       isGlobalWidgetContainer={true}
     >
       <Button id="button1" text="Module button" />
+      <JSONExplorer id="jsonExplorer1" value="{{ query1.data }}" />
     </ModuleContainerWidget>
   </Frame>
 </App>

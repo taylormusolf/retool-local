@@ -1,9 +1,11 @@
-id: startTrigger
+id: agent5
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RetoolAIAgentInvokeQuery
+resourceName: RetoolAIAgentInvokeQuery
 template:
   queryRefreshTime: ''
+  agentId: d55741df-c585-4050-a3a6-f8ac7a924f69
+  agentRunId: ''
   allowedGroupIds: []
   streamResponse: false
   lastReceivedFromResourceAt: null
@@ -13,15 +15,17 @@ template:
   servedFromCache: false
   offlineUserQueryInputs: ''
   functionDescription: null
+  agentDynamicModeEnabled: false
   successMessage: ''
   queryDisabled: ''
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
+  agentQueryMode: json
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -31,12 +35,13 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
+  agentInputs: '{''action'': ''invoke''}'
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
+  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -60,6 +65,7 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
+  agentGuiMode: invoke
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
@@ -71,15 +77,14 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-13T23:09:50.542Z
+createdAt: 2025-10-15T19:36:59.484Z
 blockData:
   top: 48
-  left: 48
-  uuid: aaa6e082-9706-4e3b-b957-fd969c42e096
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  left: 2304
+  uuid: 7586f704-3d39-4139-9789-3b0d71c2b161
+  pluginId: agent5
+  blockType: default
+  editorType: RetoolAIAgentInvokeQuery
+  resourceName: RetoolAIAgentInvokeQuery
+  incomingOnSuccessEdges:
+    - 6b36f6ab-a3a6-438b-b98c-ec9bea723270
